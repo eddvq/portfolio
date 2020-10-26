@@ -1,3 +1,69 @@
-body {
- background-color: red;
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e1eded;
+}
+
+article {
+  background-color: #c3e3e3;
+}
+
+h1 {
+ color: #052F5F;
+}
+
+h2 {
+color: #005377;
+}
+
+h3 {
+  color: #076769;
+}
+
+p {
+  color: #282A28;
+}
+
+p:hover {
+  color: #195273;
+}
+
+footer p {
+  color: #7d807d;
+}
+
+a:link {
+  color: #00405c;
+}
+
+a:visited {
+  color: #1c88b8}
+
+a:hover {
+  color: #006e9e;
+}
+
+a:active {
+  color: #00cfba;
+}
+
+li {
+  color: #1061a3;
+}
+
+img {
+  border: solid #C9EDDC;
+  border-radius: 3px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  opacity: 75%;
+}
+
+img[src="images/smorgasborg-dumpling.png"]:hover {
+  transform: scaleX(-1);
+  filter: sepia(100%);
 }
