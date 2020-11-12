@@ -3,37 +3,63 @@
    <head>
       <meta charset="utf-8">
       <title>Portfolio</title>
+      <link rel="stylesheet" type="text/css "href="./styles/normalize.css">
       <link rel="stylesheet" type="text/css" href="./styles/stylesheet.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/2e8d1a037a.js" crossorigin="anonymous"></script>
    </head>
    <body>
-      <nav>
-         <ul>
-            <li><a href="semantic-elements.html">Semantic Elements</a></li>
-            <li><a href="about-me.html">About Me</a></li>
-         </ul>
-      </nav>
-      <header>
-         <h1>Eddy's Portfolio Site</h1>
-         <p>The things I'm learning in HTML 110</p>
-      </header>
-      <article >
-         <header>
-            <h2>Courswork</h2>
-            <p>Take a look at some of the assignments I had to work on for the class</p>
-         </header>
-         <section>
-            <img src="images/semantic.jpg" alt="Thumbnail of a HTML graphic" width="240">
-            <h3><a href="semantic-elements.html">Semantic Elements Explained</a></h3>
-            <p>HTML is the standard mark up language for the web. Semantic elements help the computer and developer understand the types of content that are on the page. <a href="semantic-elements.html">Learn more...</a></p>
-         </section>
-         <section>
-            <img src="images/about-me.jpg" alt="Thumbnail of GreenLake Park" width="240">
-            <h3><a href="about-me.html">About Me</a></h3>
-            <p>Learn about me and some good reccomendations in Seattle. </p>
-         </section>
-      </article>
-      <footer>
-        <p>Last updated October 17 2020</p>
-      </footer>
+    <nav>
+      <div class="nav-logoform">
+        <h1><a href="index.html">eddy vazquez</a></h1>
+        <p>designer. occasional mischief maker.</p>
+      </div>
+      <div>
+        <ul class="nav-bar-menu">
+          <li><a href="index.html" class="current-page">Work</a></li>
+          <li><a href="about-me.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+
+    <div class="projects">
+
+      <div class="project-tile">
+        <a href="#">
+        <img src="images/1-project-thumb.jpg" alt="Thumbnail image of Echo Devices">
+        <p>Project Placeholder</p>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="#">
+        <img src="images/1-project-thumb.jpg" alt="Thumbnail image of Echo Devices">
+        <p>Project Placeholder 2</p>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="#">
+        <img src="images/1-project-thumb.jpg" alt="Thumbnail image of Echo Devices">
+        <p>Project Placeholder 3</p>
+        </a>
+      </div>
+
+    </div>
+
+    </main>
+
+    <footer>
+      <div class="footer-styling">
+        <p>Eduardo Vazquez | &copy; 2020</p>
+        <div class="social-media-links">
+          <a href="https://www.linkedin.com/in/eduardovz/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://www.instagram.com/hola_eddy/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
    </body>
 </html>

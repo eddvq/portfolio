@@ -1,69 +1,148 @@
-* {
+/* Global Elements */
+
+html, body {
+  height: 100%;
+  margin: 0%
+}
+
+main {
+  flex:1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
-}
-
-body{
-  background-color: #e1eded;
-}
-
-article {
-  background-color: #c3e3e3;
-}
-
-h1 {
- color: #052F5F;
-}
-
-h2 {
-color: #005377;
-}
-
-h3 {
-  color: #076769;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FCF5C7;
 }
 
 p {
-  color: #282A28;
+  color: #0C2131;
 }
 
-p:hover {
-  color: #195273;
+/* Navigation Element's Styling */
+
+h1 {
+  font-weight: bold;
 }
 
-footer p {
-  color: #7d807d;
+.nav-logoform h1 {
+  margin: 0 0;
 }
 
-a:link {
-  color: #00405c;
+.nav-logoform p {
+  margin: .5rem 0 0 0;
 }
 
-a:visited {
-  color: #1c88b8}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 8rem;
+}
+
+.nav-bar-menu li {
+  display: inline;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0C2131;
+}
+
+.current-page {
+  font-weight: bold;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #102C42;
+}
 
 a:hover {
-  color: #006e9e;
+  color: #79ADDC;
 }
 
 a:active {
-  color: #00cfba;
+  color: #FFC09F;
 }
 
-li {
-  color: #1061a3;
+.nav-bar-menu li:first-child {
+  margin-right: 2rem;
 }
 
-img {
-  border: solid #C9EDDC;
-  border-radius: 3px;
+/* Footer Element's Styling */
+
+footer {
+  background-color: #0C2131;
 }
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  opacity: 75%;
+.footer-styling {
+  margin: 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-img[src="images/smorgasborg-dumpling.png"]:hover {
-  transform: scaleX(-1);
-  filter: sepia(100%);
+.social-media-links {
+  color: white;
+  margin: .5rem 0 .5rem 0;
+}
+
+.footer-styling p {
+  color: #E9EBEC;
+}
+
+.social-media-links a {
+  color:  #596065;
+}
+
+.social-media-links a:hover {
+  color:  #E9EBEC;
+}
+
+.social-media-links a:first-child {
+  margin-right: 10px;
+}
+
+/* Main */
+
+main {
+    margin: 5rem 8rem;
+}
+
+.about-structure {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Project Tiles*/
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.project-tile p {
+  text-align: center;
+}
+
+/* About me */
+
+img[src="images/portrait.jpg"] {
+  align-self: center;
+  width: 40%;
+}
+
+a[href="https://www.valhallasandwiches.com/"] {
+  color: purple;
+}
+
+a[href="https://www.valhallasandwiches.com/"]:hover {
+  color: red;
+}
+
+.bio {
+  width: 50%;
+  align-self: center;
 }
